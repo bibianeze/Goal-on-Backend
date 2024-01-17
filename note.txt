@@ -1,0 +1,11 @@
+package.json - npm init
+install packages - 
+* express
+* nodemon --save-dev
+create the server
+
+MODELS VIEWS CONTROLLER
+
+DATABASE - mongoDB
+sql - rows and columns(structured)
+nosql - 
