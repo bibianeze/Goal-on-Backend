@@ -5,8 +5,6 @@ const PORT = process.env.PORT || 3000;
 const mongoose = require("mongoose");
 const cors = require("cors");
 const goalRouter = require("./routes/goalRouter");
-// const MONGO_URL =
-//   "mongodb+srv://ezebibian4:chichekwam3@cluster0.i5ydsnc.mongodb.net/goalserver?retryWrites=true&w=majority";
 
 // MIDDLEWARES
 app.use(express.json());
