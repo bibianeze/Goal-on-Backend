@@ -17,7 +17,7 @@ router.route("/").get(getAllGoals).post(createGoal);
 // router.patch("/api/goals/:goalId", updateGoal);
 // router.delete("/api/goals/:goalId", deleteGoal);
 router
-  .route("/goals/:goalId")
+  .route("/:goalId")
   .get(getAGoal)
   .patch(updateGoal)
   .delete(deleteGoal);
